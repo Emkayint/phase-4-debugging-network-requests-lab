@@ -87,7 +87,7 @@ developing your own process.
 
   <ol>
     <li>Read the response error on the chrome network and the rails server logs</li>
-    <li>The rute was not initiazed therefore a 404 response</li>
+    <li>The route was not initiazed therefore a 404 response</li>
     <li>Added a destroy route</li>
   </ol>
 
