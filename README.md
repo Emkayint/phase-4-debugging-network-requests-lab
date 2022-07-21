@@ -63,11 +63,31 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  <ol>
+    <li>Read the response error on the chrome network and the rails server logs</li>
+    <li>Checked the route and the controller method</li>
+    <li>Fixed the uninialized constant error</li>
+  </ol>
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  <ol>
+    <li>Read the response error on the chrome network and the rails server logs</li>
+    <li>Error was unpermited parameter id</li>
+    <li>Added the :id symbol to the permited params</li>
+  </ol>
+
+
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+
+  <ol>
+    <li>Read the response error on the chrome network and the rails server logs</li>
+    <li>The rute was not initiazed therefore a 404 response</li>
+    <li>Added a destroy route</li>
+  </ol>
+
